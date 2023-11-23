@@ -20,9 +20,14 @@ A list of rooms to which patients can be assigned when a doctor is ready to see 
 ## Attributes Specification
 
 ### Patients Attributes:
-- 
+- patientID: automatically incremented surrogate key.
+- healthCard: integer healthcard number, if present.
+- versionCode: two letters at end of health card.
+- dob: patient's date of birth. Included to differentiate patients who lack health cards.
+- currentAddress: patient's address. Included to differentiate patients who lack health cards.
 
 ### Visits Attributes:
+
 
 ### Symptoms Attributes:
 
