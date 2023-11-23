@@ -66,11 +66,11 @@ This website will allow a patient to check in to the hospital and to input their
 ## Design System
 
 ### Colour Palette
-  -   **Text Colour:** '#000000' - The main text of on the website 
+  -   **Text Colour:** '#ffffff' - The main text of on the website 
   -   **Backgroudnd Colour:** '#981d31' - Used for the colour of the main background 
   -   **Secondary Background Colour:** #555555' - Used for the colour of the any secondary backgrounds
   -   **Border Colour:** '#ffffff' - Border colour of tables and buttons
-  -   **Header Colour:** '#6f7086' - Colour of the headers and titles
+  -   **Header Colour:** '#6f70ff' - Colour of the headers and titles
     
 ### Typography
 - **Header Text:** '"Times New Roman", Times, serif'
