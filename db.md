@@ -27,9 +27,14 @@ A list of rooms to which patients can be assigned when a doctor is ready to see 
 - currentAddress: patient's address. Included to differentiate patients who lack health cards.
 
 ### Visits Attributes:
-
+- visitID: automatically incremented surrogate key.
+- patientID_fk: foreign key specifying which patient is visiting.
+- arrivalTime: when the patient showed up and began waiting.
+- seenByDoctor: when the patient was assigned a room/doctor.
+- dischareTime: when the patient has been fully treated and is ready to leave.
 
 ### Symptoms Attributes:
+-
 
 ### Doctors Attributes:
 
