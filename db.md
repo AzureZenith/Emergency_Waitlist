@@ -2,19 +2,19 @@
 
 ## Entities Description
 
-### Patients
+### Patients:
 Stores the individual patients in the triage system.
 
-### Visits
+### Visits:
 Instances of a patient visiting our facility, whether by appointment or walk-in.
 
-### Symptoms
+### Symptoms:
 Conditions reported which made a visit necessary. Recorded separately for each visit.
 
-### Doctors
+### Doctors:
 A list of medical personnel who can see patients.
 
-### Rooms
+### Rooms:
 A list of rooms to which patients can be assigned when a doctor is ready to see them.
 
 ## Attributes Specification
@@ -50,7 +50,10 @@ A list of rooms to which patients can be assigned when a doctor is ready to see 
 - specialization: The subfield of medicine for which the doctor has the necessary knowledge, skills and abilities.
 
 ### Rooms Attributes:
-- 
+- roomID: Automatically incremented surrogate key.
+- building: A string describing the building in which the room is located.
+- floor: a 1-byte integer representing the floor on which the room is.
+- roomNumber: The room number within the current building - rooms in other buildings may have the same number, hence the need for either surrogate or composite key. Surrogate was easier to reference in other tables.
 
 ## Database ERD (Entity-Relationship Diagram)
 <!-- ![Database Schema](schema.png) -->
