@@ -20,23 +20,27 @@ A list of rooms to which patients can be assigned when a doctor is ready to see 
 ## Attributes Specification
 
 ### Patients Attributes:
-- patientID: automatically incremented surrogate key.
-- healthCard: integer healthcard number, if present.
-- versionCode: two letters at end of health card.
-- dob: patient's date of birth. Included to differentiate patients who lack health cards.
-- currentAddress: patient's address. Included to differentiate patients who lack health cards.
+- patientID: Automatically incremented surrogate key.
+- healthCard: Integer healthcard number, if present.
+- versionCode: Two letters at end of health card.
+- dob: Patient's date of birth. Included to differentiate patients who lack health cards.
+- currentAddress: Patient's address. Included to differentiate patients who lack health cards.
 
 ### Visits Attributes:
-- visitID: automatically incremented surrogate key.
-- patientID_fk: foreign key specifying which patient is visiting.
-- doctorID_fk: foreign key specifying which doctor is assigned to this patient during this visit.
-- roomID_fk: foreign key specifying which room the patient was sent to for this visit.
-- arrivalTime: when the patient showed up and began waiting.
-- seenByDoctor: when the patient was assigned a room/doctor.
-- dischareTime: when the patient has been fully treated and is ready to leave.
+- visitID: Automatically incremented surrogate key.
+- patientID_fk: Foreign key specifying which patient is visiting.
+- doctorID_fk: Foreign key specifying which doctor is assigned to this patient during this visit.
+- roomID_fk: Foreign key specifying which room the patient was sent to for this visit.
+- arrivalTime: When the patient showed up and began waiting.
+- seenByDoctor: When the patient was assigned a room/doctor.
+- dischareTime: When the patient has been fully treated and is ready to leave.
 
 ### Symptoms Attributes:
--
+- symptomID: Automatically incremented surrogate key.
+- visitID_fk: Foreign key specifying the visit during which the symptom was experienced.
+- afflictedArea: The body part in which the symptom was experienced.
+- description: Nature of the symptom, such as affected body functions, visible changes to afflicted area, type of sensation etc.
+- painLevel: Pain experienced on a scale from 1-10.
 
 ### Doctors Attributes:
 
