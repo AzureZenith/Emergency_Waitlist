@@ -43,9 +43,14 @@ A list of rooms to which patients can be assigned when a doctor is ready to see 
 - painLevel: Pain experienced on a scale from 1-10.
 
 ### Doctors Attributes:
+- doctorID: Automatically incremented surrogate key.
+- fName: First name.
+- lName: Last name.
+- SIN: Social Insurance Number.
+- specialization: The subfield of medicine for which the doctor has the necessary knowledge, skills and abilities.
 
 ### Rooms Attributes:
--
+- 
 
 ## Database ERD (Entity-Relationship Diagram)
 <!-- ![Database Schema](schema.png) -->
