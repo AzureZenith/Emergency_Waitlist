@@ -21,6 +21,8 @@ A list of rooms to which patients can be assigned when a doctor is ready to see 
 
 ### Patients Attributes:
 - patientID: Automatically incremented surrogate key.
+- fName: First name.
+- lName: Last name.
 - healthCard: Integer healthcard number, if present.
 - versionCode: Two letters at end of health card.
 - dob: Patient's date of birth. Included to differentiate patients who lack health cards.
