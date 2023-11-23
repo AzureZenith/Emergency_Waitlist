@@ -22,6 +22,6 @@ Th
 -
 
 ## Database ERD (Entity-Relationship Diagram)
-//![Database Schema](schema.png)
+<! -- ![Database Schema](schema.png) -->
 
 T
