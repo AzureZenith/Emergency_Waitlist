@@ -58,7 +58,7 @@ A list of rooms to which patients can be assigned when a doctor is ready to see 
 - roomNumber: The room number within the current building - rooms in other buildings may have the same number, hence the need for either surrogate or composite key. Surrogate was easier to reference in other tables.
 
 ## Database ERD (Entity-Relationship Diagram)
-<!-- ![Database Schema](schema.png) -->
+![Database Schema](Triage_ERD_image.png)
 
 ## Website Overview
 This website will allow a patient to check in to the hospital and to input their symptoms and the location they feel pain into the hospital databse. A hospial worker will be able to look at the various patient's symptoms and will be able to decide who to treat first. 
