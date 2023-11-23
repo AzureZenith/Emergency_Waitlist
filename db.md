@@ -8,6 +8,8 @@ Stores the individual patients in the triage system.
 ### Visits
 Instances of a patient visiting our facility, whether by appointment or walk-in.
 
+### Symptoms
+
 ### Doctors
 A list of medical personnel who can see patients.
 
@@ -19,7 +21,9 @@ A list of rooms to which patients can be assigned when a doctor is ready to see 
 ### Patients Attributes:
 - 
 
-### P
+### Visits Attributes:
+
+### Doctors Attributes:
 
 ### Rooms Attributes:
 -
