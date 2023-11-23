@@ -29,6 +29,8 @@ A list of rooms to which patients can be assigned when a doctor is ready to see 
 ### Visits Attributes:
 - visitID: automatically incremented surrogate key.
 - patientID_fk: foreign key specifying which patient is visiting.
+- doctorID_fk: foreign key specifying which doctor is assigned to this patient during this visit.
+- roomID_fk: foreign key specifying which room the patient was sent to for this visit.
 - arrivalTime: when the patient showed up and began waiting.
 - seenByDoctor: when the patient was assigned a room/doctor.
 - dischareTime: when the patient has been fully treated and is ready to leave.
