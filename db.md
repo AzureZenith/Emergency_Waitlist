@@ -44,4 +44,28 @@ A list of rooms to which patients can be assigned when a doctor is ready to see 
 ## Database ERD (Entity-Relationship Diagram)
 <!-- ![Database Schema](schema.png) -->
 
-T
+## Website Overview
+This website will allow a patient to check in to the hospital and to input their symptoms and the location they feel pain into the hospital databse. A hospial worker will be able to look at the various patient's symptoms and will be able to decide who to treat first. 
+
+## Design System
+
+### Colour Palette
+  -   **Text Colour:** '#000000' - The main text of on the website 
+  -   **Backgroudnd Colour:** '#981d31' - Used for the colour of the main background 
+  -   **Secondary Background Colour:** #555555' - Used for the colour of the any secondary backgrounds
+  -   **Border Colour:** '#ffffff' - Border colour of tables and buttons
+  -   **Header Colour:** '#6f7086' - Colour of the headers and titles
+    
+### Typography
+- **Header Text:** '"Times New Roman", Times, serif'
+- **Subheadings Text:** '"Times New Roman", Times, serif'
+- **Body Text:** '"Times New Roman", Times, serif'
+
+## Hospital Triage App Mock-Ups
+
+## Patient Instructions
+Patients will have to enter a piece of identification and then choose where their pain is and how the pain is. 
+
+## Hospital Staff Instructions
+Hospital Staff will go into the staff side of the webside and will see a list of patients that need help. The hospital staff will have to choose a patient that needs help and then go help them. When the patient has been seen, the staff member will have to remove that patient from the database. 
+
