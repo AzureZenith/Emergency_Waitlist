@@ -80,7 +80,7 @@ This website will allow a patient to check in to the hospital and to input their
 ## Hospital Triage App Mock-Ups
 
 ## Patient Instructions
-Patients will have to enter a piece of identification and then choose where their pain is and how bad the pain is. 
+Patients will have to enter a piece of identification and then choose where their symptom is, the nature of the symptom and how bad the pain is for each symptom.
 
 ## Hospital Staff Instructions
 Hospital Staff will go into the staff side of the webside and will see a list of patients that need help. The hospital staff will have to choose a patient that needs help and then go help them. When the patient has been seen, the staff member will have to log discharge time in the database.
